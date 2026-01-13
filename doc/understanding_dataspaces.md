@@ -56,8 +56,17 @@ In the Alfa Control Plane - HTTP Dataplane 'kadaster-data-plane', the published 
 
 <img src="images/alfa_kadaster_datasets.png" alt="Alfa Metadata Publication" width="600"/>
 
+### Data Discovery
 
-Now, participant Bravo can discover and request access to the cadastral parcel dataset hosted by Alfa. The sequence of operations is as follows:
+Participant Bravo searches the data space for datasets of interest in the 'Federated Catalog'. The Federated Catalog aggregates metadata from all connected participants, enabling Bravo to discover datasets published by Alfa.
+
+<img src="images/bravo_discovery_dataset.png" alt="Bravo Dataset Search" width="600"/>
+
+Participant Bravo now has the option to request access to the dataset using the 'Negotiate Contract' button.
+
+### Contract Negotiation
+
+Now, participant Bravo can request access to the cadastral parcel dataset hosted by Alfa. The sequence of operations is as follows:
 
 ```mermaid
 sequenceDiagram
@@ -85,16 +94,6 @@ sequenceDiagram
 
     Note right of Bravo: Visualize data in GIS client (e.g. MapLibre)
 ```
-
-### Data Discovery
-
-Participant Bravo searches the data space for datasets of interest in the 'Federated Catalog'. The Federated Catalog aggregates metadata from all connected participants, enabling Bravo to discover datasets published by Alfa.
-
-<img src="images/bravo_discovery_dataset.png" alt="Bravo Dataset Search" width="600"/>
-
-Participant Bravo now has the option to request access to the dataset using the 'Negotiate Contract' button.
-
-### Contract Negotiation
 
 Participant Bravo initiates contract negotiation by sending a contract request to Alfa's Control Plane. The request includes a use permission and the target dataset (parcels dataset). 
 
