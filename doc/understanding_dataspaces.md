@@ -142,7 +142,7 @@ GET https://{{host}}/http-data-plane/api/management/transfers
 Authorization: Bearer {{login.response.body.access_token}}
 ```
 
-Response contains the data address with access details:
+Response contains the transfer object with the data address (endpointProperty) and access details:
 
 ```json
 "dataAddress": {
@@ -159,7 +159,7 @@ Response contains the data address with access details:
 }
 ```
 
-Using the provided endpoint and authorization token, Bravo can now access the cadastral parcel data hosted by Alfa.
+Using the provided endpoint and transfer authorization token, Bravo can access the cadastral parcel data hosted by Alfa.
 
 Sample request to access the OGC API Features service:
 
