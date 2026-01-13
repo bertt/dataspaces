@@ -102,7 +102,7 @@ Simplified JSON request looks like:
 ```
 {
   "@type": "Offer",
-  "assigner": "did:web:alfa.tsg.beta.geodan.nl",
+  "assigner": "alfa_participant",
   "permission": [
     {
       "@type": "Permission",
