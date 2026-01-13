@@ -79,15 +79,12 @@ sequenceDiagram
     AlfaCP-->>Bravo: Transfer started
 
     %% Data Access
-    Bravo->>AlfaDP: GET transfer details (management API)
-    AlfaDP-->>Bravo: DataAddress (endpoint + access token)
-
-    Bravo->>OGC: GET cadastral parcels (OGC API Features) via AlfaDP
+    Bravo->>AlfaDP: •
+    Bravo->>OGC: GET cadastral parcels (OGC API Features)
     OGC-->>Bravo: GeoJSON FeatureCollection
 
     Note right of Bravo: Visualize data in GIS client (e.g. MapLibre)
 ```
-
 
 ### Data Discovery
 
