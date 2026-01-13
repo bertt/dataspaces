@@ -140,7 +140,7 @@ Both Participants have the option to Terminate, Suspend, or Complete the data tr
 Participant Bravo can request the transfer details using HTTP GET request to the Data Plane API:
 
 ```GET /api
-GET https://{{host}}/http-data-plane/api/management/transfers
+GET https://{{bravo_participant}}/http-data-plane/api/management/transfers
 Authorization: Bearer {{login.response.body.access_token}}
 ```
 
