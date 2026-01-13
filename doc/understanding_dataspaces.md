@@ -59,8 +59,6 @@ In the Alfa Control Plane - HTTP Dataplane 'kadaster-data-plane', the published 
 
 Now, participant Bravo can discover and request access to the cadastral parcel dataset hosted by Alfa. The sequence of operations is as follows:
 
-Sequence of operations in the scenario:
-
 ```mermaid
 sequenceDiagram
     autonumber
