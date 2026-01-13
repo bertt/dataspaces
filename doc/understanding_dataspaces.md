@@ -66,6 +66,7 @@ sequenceDiagram
     participant Bravo as Participant Bravo
     participant AlfaCP as Alfa Control Plane
     participant AlfaDP as Alfa Data Plane
+    participant OGC as OGC API Features
 
     %% Contract Negotiation
     Bravo->>AlfaCP: Contract Request (Offer) - permission: use - target: parcels dataset
@@ -81,8 +82,8 @@ sequenceDiagram
     Bravo->>AlfaDP: GET transfer details (management API)
     AlfaDP-->>Bravo: DataAddress (endpoint + access token)
 
-    Bravo->>AlfaDP: GET cadastral parcels (OGC API Features)
-    AlfaDP-->>Bravo: GeoJSON FeatureCollection
+    Bravo->>OGC: GET cadastral parcels (OGC API Features) via AlfaDP
+    OGC-->>Bravo: GeoJSON FeatureCollection
 
     Note right of Bravo: Visualize data in GIS client (e.g. MapLibre)
 ```
