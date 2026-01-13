@@ -6,7 +6,7 @@ Data Spaces enable secure, decentralized data sharing between organizations whil
 
 This article outlines the core concepts and architecture of data spaces and demonstrates their practical operation using Data Space reference implementation 'TNO TSG Security Gateway' (https://tsg.dataspac.es/).
 
-## DataSpace Architecture
+## Data Space Architecture
 
 A data space uses a federated architecture where each participant operates its own systems and data remains with the provider. There is no central data storage; interoperability is achieved through shared protocols and governance rules.
 
