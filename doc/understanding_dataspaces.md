@@ -50,7 +50,7 @@ Sample metadata configuration for Alfa's Cadastral parcels dataset in the Kadast
       type: default
 ```
 
-The 'gokoala' service hosts the OGC API Features service with the cadastral parcel data. See https://github.com/PDOK/gokoala for more information about GoKOala.
+The 'gokoala' service hosts the OGC API Features service with the cadastral parcel data. See https://github.com/PDOK/gokoala for more information about GoKoala.
 
 In the Alfa Control Plane - HTTP Dataplane 'kadaster-data-plane', the published dataset appears as follows:
 
