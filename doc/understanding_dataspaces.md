@@ -135,6 +135,8 @@ Both Participants have the option to Terminate, Suspend, or Complete the data tr
 
 <img src="images/transfer_options.png" alt="Transfer Options" width="600"/>
 
+### Visualize data
+
 Participant Bravo can request the transfer details using HTTP GET request to the Data Plane API:
 
 ```GET /api
