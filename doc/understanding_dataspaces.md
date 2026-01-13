@@ -92,7 +92,7 @@ Participant Bravo searches the data space for datasets of interest in the 'Feder
 
 <img src="images/bravo_discovery_dataset.png" alt="Bravo Dataset Search" width="600"/>
 
-Participant Bravo has now the option to request access to the dataset using the 'Negotiate Contract' button.
+Participant Bravo now has the option to request access to the dataset using the 'Negotiate Contract' button.
 
 ### Contract Negotiation
 
