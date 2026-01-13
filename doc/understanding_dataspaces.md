@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Data Spaces enable secure, decentralized data sharing between organizations while preserving data sovereignty. They standardize how data is discovered, how access conditions are negotiated, and how data is exchanged under enforceable policies. The data space protocol is described at https://docs.internationaldata spaces.org/ids-knowledgebase/data space-protocol. 
+Data Spaces enable secure, decentralized data sharing between organizations while preserving data sovereignty. They standardize how data is discovered, how access conditions are negotiated, and how data is exchanged under enforceable policies. The data space protocol is described at https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol. 
 
 This article outlines the core concepts and architecture of data spaces and demonstrates their practical operation using Data Space reference implementation 'TNO TSG Security Gateway' (https://tsg.dataspac.es/).
 
