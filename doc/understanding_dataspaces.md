@@ -120,7 +120,7 @@ Simplified JSON request looks like:
 
 Participant Alfa evaluates the request against the dataset's access policy. If the request complies with the policy, Alfa generates a contract agreement and sends it back to Bravo.
 
-Participant Bravo receives the contract agreement and has the option to start the Transfer Process to access the data using the button 'Request Transfer'.
+Participant Bravo receives the contract agreement and has the option to start the 'Transfer Process' using the button 'Request Transfer'.
 
 <img src="images/negotiation_agreement.png" alt="Contract Agreement" width="600"/>
 
